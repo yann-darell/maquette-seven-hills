@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Hills | À Propos | L'Histoire de l'Excellence</title>
+    <meta name="description" content="Découvrez l'histoire du Seven Hills à Yaoundé. Heritage et vision culinaire au cœur des sept collines.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Playfair+Display:ital,wght@0,400;700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="header" class="scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo/logo.jpg" alt="Seven Hills Logo">
+            </a>
+            <nav class="desktop-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html" class="active">À Propos</a></li>
+                    <li><a href="menu.html">La Carte</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="burger" id="burger-btn">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobile-overlay">
+        <ul class="nav-links-mobile">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html" class="active">À Propos</a></li>
+            <li><a href="menu.html">La Carte</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Page Header -->
+    <section class="section-padding reveal" style="margin-top: 100px; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/hero.webp'); background-size: cover; text-align: center; height: 300px; display: flex; align-items: center;">
+        <div class="container">
+            <h1 class="title-lg shimmer-text reveal-delay-1">Notre Histoire</h1>
+        </div>
+    </section>
+
+    <!-- Detailed Univers Section -->
+    <section class="section-padding">
+        <div class="container about-futuristic">
+            <div class="about-content reveal reveal-left">
+                <p class="shimmer-text" style="letter-spacing: 5px;">Héritage & Vision</p>
+                <h2>L'Essence du Seven Hills</h2>
+                <p>Niché au cœur de notre charmante ville de Yaoundé, le Seven Hills tire son nom des sept collines mythiques qui entourent la capitale. Ces collines offrent une vue panoramique exceptionnelle, créant une ambiance inoubliable où chaque repas devient une expérience unique.</p>
+                <p>Notre établissement est l'endroit idéal pour les amateurs de cuisine raffinée et de design moderne. Nous proposons une carte variée, élaborée à partir de produits frais et de saison, pour satisfaire tous les palais.</p>
+                <div class="glass-card reveal reveal-delay-2">
+                    <p>"Chaque plat est une célébration où la passion de la bonne cuisine rencontre l'excellence du service. Une symbiose parfaite entre tradition et modernité."</p>
+                </div>
+            </div>
+            <div class="about-img reveal reveal-right">
+                <img src="images/about.jpg" alt="Seven Hills Identity" style="width: 100%; border-radius: 4px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Detail Section -->
+    <section class="section-padding reveal reveal-delay-1" style="background: var(--bg-dark);">
+        <div class="container">
+            <h2 class="title-md" style="text-align: center;">Une Équipe d'Exception</h2>
+            <p style="text-align: center; color: var(--text-muted); max-width: 800px; margin: 0 auto;">Notre équipe de chefs talentueux met tout en œuvre pour créer des plats savoureux, présentés avec élégance. Notre ambiance sophistiquée et chaleureuse vous invite à passer un moment inoubliable en notre compagnie.</p>
+            <br>
+            <p style="text-align: center; color: var(--text-muted); max-width: 800px; margin: 0 auto;">Venez découvrir notre univers culinaire unique et laissez-vous charmer par notre cadre exceptionnel.</p>
+        </div>
+    </section>
+
+    <footer class="section-padding" style="background: #000; border-top: 1px solid rgba(255,255,255,0.05);">
+        <div class="container" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4rem;">
+            <div>
+                <img src="logo/logo.jpg" alt="Seven Hills Logo" style="height: 60px; margin-bottom: 2rem;">
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Seven Hills Yaoundé - Chic & Contemporain.</p>
+            </div>
+            <div>
+                <h4 style="color: var(--gold); text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem; margin-bottom: 2rem;">Contact</h4>
+                <p style="color: var(--text-muted);">Yaoundé, Cameroun</p>
+                <p style="color: var(--text-muted);">+237 6 54 77 72 22</p>
+            </div>
+            <div>
+                <h4 style="color: var(--gold); text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem; margin-bottom: 2rem;">Social</h4>
+                <a href="#" style="color: var(--text-main); display: block; text-decoration: none;">Instagram</a>
+                <a href="#" style="color: var(--text-main); display: block; text-decoration: none;">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Hills | La Carte | Gastronomie Yaoundé</title>
+    <meta name="description"
+        content="Découvrez notre carte : Entrées, Plats de Résistance, Desserts et Boissons. Le meilleur de Yaoundé.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Playfair+Display:ital,wght@0,400;700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header id="header" class="scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo/logo.jpg" alt="Seven Hills Logo">
+            </a>
+            <nav class="desktop-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À Propos</a></li>
+                    <li><a href="menu.html" class="active">La Carte</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="burger" id="burger-btn">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobile-overlay">
+        <ul class="nav-links-mobile">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="menu.html" class="active">La Carte</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Page Header -->
+    <section class="section-padding reveal"
+        style="margin-top: 100px; background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('images/hall.jpg'); background-size: cover; background-position: center; text-align: center; height: 350px; display: flex; align-items: center;">
+        <div class="container">
+            <h1 class="title-lg shimmer-text reveal-delay-1">Expérience Culinaire</h1>
+            <p class="reveal-delay-2"
+                style="letter-spacing: 5px; text-transform: uppercase; font-size: 0.8rem; margin-top: 1rem; color: var(--gold);">
+                L'excellence du goût à Yaoundé</p>
+        </div>
+    </section>
+
+    <!-- Detailed Menu -->
+    <section class="section-padding">
+        <div class="container">
+
+            <!-- SECTION 1: ENTRÉES -->
+            <h2 class="menu-category-title reveal">Entrées</h2>
+            <div class="menu-grid-premium">
+                <div class="menu-item-premium reveal reveal-delay-1">
+                    <div class="menu-item-img"><img src="images/cap.jpg" alt="Entrée"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">Carpaccio Impérial</span>
+                            <span class="menu-item-price">8 500 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Poisson blanc mariné aux agrumes des sept collines.</p>
+                    </div>
+                </div>
+                <div class="menu-item-premium reveal reveal-delay-2">
+                    <div class="menu-item-img"><img src="images/Sans titre.jpg" alt="Entrée"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">Salade Seven Breeze</span>
+                            <span class="menu-item-price">6 000 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Mélange de jeunes pousses, noix grillées et vinaigrette
+                            miel-gingembre.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 2: PLATS DE RÉSISTANCE -->
+            <h2 class="menu-category-title reveal">Plats de Résistance</h2>
+            <div class="menu-grid-premium">
+                <div class="menu-item-premium reveal reveal-delay-1">
+                    <div class="menu-item-img"><img src="images/burger.webp" alt="Plat"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">The Seven Burger</span>
+                            <span class="menu-item-price">12 000 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Double steak de boeuf premium, oignons caramélisés et bacon fumé.</p>
+                    </div>
+                </div>
+                <div class="menu-item-premium reveal reveal-delay-2">
+                    <div class="menu-item-img"><img src="images/pizza.webp" alt="Plat"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">Pizza Royal Yaoundé</span>
+                            <span class="menu-item-price">11 500 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Garnie de saveurs locales, mozzarella fraîche et herbes de saison.</p>
+                    </div>
+                </div>
+                <div class="menu-item-premium reveal reveal-delay-3">
+                    <div class="menu-item-img"><img src="images/plat.webp" alt="Plat"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">Signature du Chef</span>
+                            <span class="menu-item-price">18 000 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Filet de bar grillé, émulsion de coco et purée de patate douce.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 3: DESSERTS -->
+            <h2 class="menu-category-title reveal">Desserts</h2>
+            <div class="menu-grid-premium">
+                <div class="menu-item-premium reveal reveal-delay-1">
+                    <div class="menu-item-img"><img
+                            src="images/30-Summer-Desserts-That-Are-No-Bake-and-Oh-So-Easy_TOHcom23_27515_P2_MD_03_22_6b.jpg"
+                            alt="Dessert"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">Douceur Mystique</span>
+                            <span class="menu-item-price">4 500 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Moelleux au chocolat noir intense et glace vanille Bourbon.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 4: BOISSONS -->
+            <h2 class="menu-category-title reveal">Boissons</h2>
+            <div class="menu-grid-premium">
+                <div class="menu-item-premium reveal reveal-delay-1">
+                    <div class="menu-item-img"><img src="images/drinks.webp" alt="Boisson"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">Cocktail Seven Collines</span>
+                            <span class="menu-item-price">5 500 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Mélange secret de fruits exotiques et spiritueux de prestige.</p>
+                    </div>
+                </div>
+                <div class="menu-item-premium reveal reveal-delay-2">
+                    <div class="menu-item-img"><img src="images/drinks.webp" alt="Boisson"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">Sélection de Vins</span>
+                            <span class="menu-item-price">Verre: 3 500 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Notre sommelier vous propose les plus grands crus mondiaux.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="section-padding" style="background: #000; border-top: 1px solid rgba(255,255,255,0.05);">
+        <div class="container" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4rem;">
+            <div>
+                <img src="logo/logo.jpg" alt="Seven Hills Logo" style="height: 60px; margin-bottom: 2rem;">
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Seven Hills Yaoundé - Chic & Contemporain.</p>
+            </div>
+            <div>
+                <h4
+                    style="color: var(--gold); text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem; margin-bottom: 2rem;">
+                    Contact</h4>
+                <p style="color: var(--text-muted);">Yaoundé, Cameroun</p>
+                <p style="color: var(--text-muted);">+237 6 54 77 72 22</p>
+            </div>
+            <div>
+                <h4
+                    style="color: var(--gold); text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem; margin-bottom: 2rem;">
+                    Social</h4>
+                <a href="#" style="color: var(--text-main); display: block; text-decoration: none;">Instagram</a>
+                <a href="#" style="color: var(--text-main); display: block; text-decoration: none;">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

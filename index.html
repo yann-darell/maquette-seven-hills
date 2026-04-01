@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Hills | Accueil | L'Excellence à Yaoundé</title>
+    <meta name="description"
+        content="Bienvenue au Seven Hills Yaoundé. Une expérience gastronomique sophistiquée et futuriste.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Playfair+Display:ital,wght@0,400;700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo/logo.jpg" alt="Seven Hills Logo">
+            </a>
+            <nav class="desktop-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="about.html">À Propos</a></li>
+                    <li><a href="menu.html">La Carte</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="burger" id="burger-btn">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobile-overlay">
+        <ul class="nav-links-mobile">
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="menu.html">La Carte</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="hero" id="accueil">
+        <div class="container hero-content">
+            <p class="hero-tagline shimmer-text reveal">Expérience Gastronomique de Demain</p>
+            <h1 class="reveal reveal-delay-1">Seven<br>Hills</h1>
+            <div class="cta-group reveal reveal-delay-2">
+                <a href="menu.html" class="btn btn-futuristic">Explorer la Carte</a>
+                <a href="#quick-res" class="btn btn-futuristic">Réserver une Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Presentation Rapide -->
+    <section class="section-padding">
+        <div class="container about-futuristic">
+            <div class="about-content reveal reveal-left">
+                <p class="shimmer-text" style="letter-spacing: 5px;">Héritage & Vision</p>
+                <h2>L'Excellence au Cœur de Yaoundé</h2>
+                <p>Le Seven Hills est le point de rencontre entre la tradition culinaire camerounaise et le design
+                    futuriste. Une invitation au voyage sensoriel sur les sept collines mythiques.</p>
+                <a href="about.html" class="btn btn-futuristic" style="padding: 1rem 2rem;">Notre Histoire</a>
+            </div>
+            <div class="about-img reveal reveal-right">
+                <img src="images/about.jpg" alt="Seven Hills Identity" style="width: 100%; border-radius: 4px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Rapide -->
+    <section class="section-padding" style="background: rgba(197, 160, 89, 0.02);">
+        <div class="container">
+            <h2 class="title-md shimmer-text" style="text-align: center; margin-bottom: 4rem;">Sélection du Chef</h2>
+            <div class="menu-grid-premium">
+                <!-- Plats Phares -->
+                <div class="menu-item-premium reveal reveal-delay-1">
+                    <div class="menu-item-img"><img src="images/cap.jpg" alt="Signature"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">Carpaccio de la Mer</span>
+                            <span class="menu-item-price">12 500 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Fines tranches de poisson frais, agrumes et huile d'olive vierge.</p>
+                    </div>
+                </div>
+                <div class="menu-item-premium reveal reveal-delay-2">
+                    <div class="menu-item-img"><img src="images/burger.webp" alt="Burger"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">Seven Cloud Burger</span>
+                            <span class="menu-item-price">9 000 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Boeuf premium, fromage affiné et notre sauce secrète fumée.</p>
+                    </div>
+                </div>
+                <div class="menu-item-premium reveal reveal-delay-3">
+                    <div class="menu-item-img"><img src="images/pizza.webp" alt="Pizza"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">Pizza Truffe Impériale</span>
+                            <span class="menu-item-price">15 000 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Crème de truffe, mozzarella di bufala et champignons sauvages.</p>
+                    </div>
+                </div>
+                <div class="menu-item-premium reveal reveal-delay-4">
+                    <div class="menu-item-img"><img src="images/drinks.webp" alt="Vins"></div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">Nectar des Collines</span>
+                            <span class="menu-item-price">6 500 CFA</span>
+                        </div>
+                        <p class="menu-item-desc">Cocktail signature aux fruits exotiques et épices locales.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 4rem;">
+                <a href="menu.html" class="btn btn-futuristic">Voir toute la Carte</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Rapide -->
+    <section id="quick-res" class="section-padding quick-res-bg">
+        <div class="container">
+            <div class="glass reveal" style="max-width: 600px; margin: 0 auto; padding: 4rem;">
+                <h2 class="title-md" style="text-align: center; margin-bottom: 3rem;">Réservation Rapide</h2>
+                <form id="res-form">
+                    <div class="form-group-fut">
+                        <input type="text" id="name" placeholder=" " required>
+                        <label class="form-label" for="name">Nom Complet</label>
+                    </div>
+                    <div class="form-group-fut">
+                        <input type="tel" id="tel" placeholder=" " required>
+                        <label class="form-label" for="tel">Téléphone</label>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                        <div class="form-group-fut">
+                            <input type="date" id="date" placeholder=" " required>
+                            <label class="form-label" for="date">Date</label>
+                        </div>
+                        <div class="form-group-fut">
+                            <input type="number" id="guests" placeholder=" " min="1" required>
+                            <label class="form-label" for="guests">Invités</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-submit-premium">RÉSERVER MA MAINTENANT</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section-padding" style="background: #000; border-top: 1px solid rgba(255,255,255,0.05);">
+        <div class="container" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4rem;">
+            <div>
+                <img src="logo/logo.jpg" alt="Seven Hills Yaoundé" style="height: 60px; margin-bottom: 2rem;">
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Seven Hills Yaoundé - Chic & Contemporain.</p>
+            </div>
+            <div>
+                <h4
+                    style="color: var(--gold); text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem; margin-bottom: 2rem;">
+                    Contact</h4>
+                <p style="color: var(--text-muted);">Yaoundé, Cameroun</p>
+                <p style="color: var(--text-muted);">+237 6 54 77 72 22</p>
+            </div>
+            <div>
+                <h4
+                    style="color: var(--gold); text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem; margin-bottom: 2rem;">
+                    Social</h4>
+                <a href="#" style="color: var(--text-main); display: block; text-decoration: none;">Instagram</a>
+                <a href="#" style="color: var(--text-main); display: block; text-decoration: none;">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
